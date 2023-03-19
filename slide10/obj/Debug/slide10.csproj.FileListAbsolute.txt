@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide10\bin\Debug\slide10.exe.config
+C:\Users\Administrator\source\repos\slide10\bin\Debug\slide10.exe
+C:\Users\Administrator\source\repos\slide10\bin\Debug\slide10.pdb
+C:\Users\Administrator\source\repos\slide10\obj\Debug\slide10.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide10\obj\Debug\slide10.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide10\obj\Debug\slide10.Form1.resources
+C:\Users\Administrator\source\repos\slide10\obj\Debug\slide10.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide10\obj\Debug\slide10.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide10\obj\Debug\slide10.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide10\obj\Debug\slide10.exe
+C:\Users\Administrator\source\repos\slide10\obj\Debug\slide10.pdb

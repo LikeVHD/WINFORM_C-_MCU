@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slide18-3", "slide18-3.csproj", "{8C87D9EF-38C0-4145-A219-4C14C6D42BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slide19", "..\slide19\slide19.csproj", "{E894B8F7-4939-4B23-8293-18A5D46E265F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C87D9EF-38C0-4145-A219-4C14C6D42BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C87D9EF-38C0-4145-A219-4C14C6D42BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C87D9EF-38C0-4145-A219-4C14C6D42BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C87D9EF-38C0-4145-A219-4C14C6D42BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E894B8F7-4939-4B23-8293-18A5D46E265F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E894B8F7-4939-4B23-8293-18A5D46E265F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E894B8F7-4939-4B23-8293-18A5D46E265F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E894B8F7-4939-4B23-8293-18A5D46E265F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF55DD50-A827-432C-8A03-8AC2948D5369}
+	EndGlobalSection
+EndGlobal

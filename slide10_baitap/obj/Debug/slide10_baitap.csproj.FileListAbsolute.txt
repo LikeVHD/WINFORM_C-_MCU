@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide10_baitap\bin\Debug\slide10_baitap.exe.config
+C:\Users\Administrator\source\repos\slide10_baitap\bin\Debug\slide10_baitap.exe
+C:\Users\Administrator\source\repos\slide10_baitap\bin\Debug\slide10_baitap.pdb
+C:\Users\Administrator\source\repos\slide10_baitap\obj\Debug\slide10_baitap.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide10_baitap\obj\Debug\slide10_baitap.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide10_baitap\obj\Debug\slide10_baitap.Form1.resources
+C:\Users\Administrator\source\repos\slide10_baitap\obj\Debug\slide10_baitap.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide10_baitap\obj\Debug\slide10_baitap.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide10_baitap\obj\Debug\slide10_baitap.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide10_baitap\obj\Debug\slide10_baitap.exe
+C:\Users\Administrator\source\repos\slide10_baitap\obj\Debug\slide10_baitap.pdb

@@ -1,0 +1,8 @@
+C:\Users\Administrator\source\repos\bai_11\bin\Debug\bai_11.exe.config
+C:\Users\Administrator\source\repos\bai_11\bin\Debug\bai_11.exe
+C:\Users\Administrator\source\repos\bai_11\bin\Debug\bai_11.pdb
+C:\Users\Administrator\source\repos\bai_11\obj\Debug\bai_11.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\bai_11\obj\Debug\bai_11.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\bai_11\obj\Debug\bai_11.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\bai_11\obj\Debug\bai_11.exe
+C:\Users\Administrator\source\repos\bai_11\obj\Debug\bai_11.pdb

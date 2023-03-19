@@ -1,0 +1,8 @@
+C:\Users\Administrator\source\repos\slide18.1\bin\Debug\slide18.1.exe.config
+C:\Users\Administrator\source\repos\slide18.1\bin\Debug\slide18.1.exe
+C:\Users\Administrator\source\repos\slide18.1\bin\Debug\slide18.1.pdb
+C:\Users\Administrator\source\repos\slide18.1\obj\Debug\slide18.1.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide18.1\obj\Debug\slide18.1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide18.1\obj\Debug\slide18.1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide18.1\obj\Debug\slide18.1.exe
+C:\Users\Administrator\source\repos\slide18.1\obj\Debug\slide18.1.pdb

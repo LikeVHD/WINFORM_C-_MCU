@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\slide12\bin\Debug\slide12.exe.config
+C:\Users\Administrator\source\repos\slide12\bin\Debug\slide12.exe
+C:\Users\Administrator\source\repos\slide12\bin\Debug\slide12.pdb
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.Form1.resources
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.frm1.resources
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.frm2.resources
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.frm3.resources
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.frm4.resources
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.exe
+C:\Users\Administrator\source\repos\slide12\obj\Debug\slide12.pdb

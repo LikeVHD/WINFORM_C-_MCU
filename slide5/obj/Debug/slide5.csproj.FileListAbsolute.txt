@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide5\bin\Debug\slide5.exe.config
+C:\Users\Administrator\source\repos\slide5\bin\Debug\slide5.exe
+C:\Users\Administrator\source\repos\slide5\bin\Debug\slide5.pdb
+C:\Users\Administrator\source\repos\slide5\obj\Debug\slide5.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide5\obj\Debug\slide5.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide5\obj\Debug\slide5.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide5\obj\Debug\slide5.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide5\obj\Debug\slide5.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide5\obj\Debug\slide5.exe
+C:\Users\Administrator\source\repos\slide5\obj\Debug\slide5.pdb
+C:\Users\Administrator\source\repos\slide5\obj\Debug\slide5.frmGroupBox.resources

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slide4", "slide4.csproj", "{9EA4B146-6CF2-40FA-A0CE-72CC522E9CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slide5", "..\slide5\slide5.csproj", "{65329A10-ED5C-4857-8B2F-F2C15D4972C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EA4B146-6CF2-40FA-A0CE-72CC522E9CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA4B146-6CF2-40FA-A0CE-72CC522E9CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA4B146-6CF2-40FA-A0CE-72CC522E9CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA4B146-6CF2-40FA-A0CE-72CC522E9CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65329A10-ED5C-4857-8B2F-F2C15D4972C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65329A10-ED5C-4857-8B2F-F2C15D4972C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65329A10-ED5C-4857-8B2F-F2C15D4972C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65329A10-ED5C-4857-8B2F-F2C15D4972C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89D3F8BE-A0C4-42FF-BE13-E65B8D9D378B}
+	EndGlobalSection
+EndGlobal

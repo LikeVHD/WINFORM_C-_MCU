@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide6\bin\Debug\slide6.exe.config
+C:\Users\Administrator\source\repos\slide6\bin\Debug\slide6.exe
+C:\Users\Administrator\source\repos\slide6\bin\Debug\slide6.pdb
+C:\Users\Administrator\source\repos\slide6\obj\Debug\slide6.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide6\obj\Debug\slide6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide6\obj\Debug\slide6.frmTapTa.resources
+C:\Users\Administrator\source\repos\slide6\obj\Debug\slide6.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide6\obj\Debug\slide6.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide6\obj\Debug\slide6.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide6\obj\Debug\slide6.exe
+C:\Users\Administrator\source\repos\slide6\obj\Debug\slide6.pdb

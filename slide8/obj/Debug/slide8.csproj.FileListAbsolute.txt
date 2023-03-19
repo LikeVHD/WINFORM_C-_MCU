@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide8\bin\Debug\slide8.exe.config
+C:\Users\Administrator\source\repos\slide8\bin\Debug\slide8.exe
+C:\Users\Administrator\source\repos\slide8\bin\Debug\slide8.pdb
+C:\Users\Administrator\source\repos\slide8\obj\Debug\slide8.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide8\obj\Debug\slide8.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide8\obj\Debug\slide8.frmDanhSach.resources
+C:\Users\Administrator\source\repos\slide8\obj\Debug\slide8.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide8\obj\Debug\slide8.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide8\obj\Debug\slide8.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide8\obj\Debug\slide8.exe
+C:\Users\Administrator\source\repos\slide8\obj\Debug\slide8.pdb

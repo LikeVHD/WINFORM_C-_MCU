@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide19\bin\Debug\slide19.exe.config
+C:\Users\Administrator\source\repos\slide19\bin\Debug\slide19.exe
+C:\Users\Administrator\source\repos\slide19\bin\Debug\slide19.pdb
+C:\Users\Administrator\source\repos\slide19\obj\Debug\slide19.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide19\obj\Debug\slide19.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide19\obj\Debug\slide19.Form1.resources
+C:\Users\Administrator\source\repos\slide19\obj\Debug\slide19.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide19\obj\Debug\slide19.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide19\obj\Debug\slide19.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide19\obj\Debug\slide19.exe
+C:\Users\Administrator\source\repos\slide19\obj\Debug\slide19.pdb

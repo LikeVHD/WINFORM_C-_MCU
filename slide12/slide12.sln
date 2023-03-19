@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slide12", "slide12.csproj", "{EC53CC4B-7701-450D-B3B2-EA27536072F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slide14", "..\slide14\slide14.csproj", "{C933BA94-6C96-4EBD-99E3-1465515FFDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slide14_baitap", "..\slide14_baitap\slide14_baitap.csproj", "{7B2DD375-29CC-4962-9863-96EBC0B608F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC53CC4B-7701-450D-B3B2-EA27536072F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC53CC4B-7701-450D-B3B2-EA27536072F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC53CC4B-7701-450D-B3B2-EA27536072F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC53CC4B-7701-450D-B3B2-EA27536072F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C933BA94-6C96-4EBD-99E3-1465515FFDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C933BA94-6C96-4EBD-99E3-1465515FFDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C933BA94-6C96-4EBD-99E3-1465515FFDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C933BA94-6C96-4EBD-99E3-1465515FFDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2DD375-29CC-4962-9863-96EBC0B608F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2DD375-29CC-4962-9863-96EBC0B608F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2DD375-29CC-4962-9863-96EBC0B608F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2DD375-29CC-4962-9863-96EBC0B608F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C363D8-2153-48D6-B477-43DE4D4026FB}
+	EndGlobalSection
+EndGlobal

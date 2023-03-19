@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide1\bin\Debug\slide1.exe.config
+C:\Users\Administrator\source\repos\slide1\bin\Debug\slide1.exe
+C:\Users\Administrator\source\repos\slide1\bin\Debug\slide1.pdb
+C:\Users\Administrator\source\repos\slide1\obj\Debug\slide1.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide1\obj\Debug\slide1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide1\obj\Debug\slide1.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide1\obj\Debug\slide1.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide1\obj\Debug\slide1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide1\obj\Debug\slide1.exe
+C:\Users\Administrator\source\repos\slide1\obj\Debug\slide1.pdb
+C:\Users\Administrator\source\repos\slide1\obj\Debug\slide1.FrmBai1.resources

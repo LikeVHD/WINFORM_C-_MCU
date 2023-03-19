@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide13\bin\Debug\slide13.exe.config
+C:\Users\Administrator\source\repos\slide13\bin\Debug\slide13.exe
+C:\Users\Administrator\source\repos\slide13\bin\Debug\slide13.pdb
+C:\Users\Administrator\source\repos\slide13\obj\Debug\slide13.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide13\obj\Debug\slide13.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide13\obj\Debug\slide13.Form1.resources
+C:\Users\Administrator\source\repos\slide13\obj\Debug\slide13.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide13\obj\Debug\slide13.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide13\obj\Debug\slide13.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide13\obj\Debug\slide13.exe
+C:\Users\Administrator\source\repos\slide13\obj\Debug\slide13.pdb
