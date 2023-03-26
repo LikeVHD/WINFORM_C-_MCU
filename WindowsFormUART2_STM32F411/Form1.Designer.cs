@@ -47,13 +47,13 @@
             this.lbDatasize = new System.Windows.Forms.Label();
             this.lbBaudrate = new System.Windows.Forms.Label();
             this.lbCOM = new System.Windows.Forms.Label();
-            this.lbSend = new System.Windows.Forms.Label();
             this.lbReceived = new System.Windows.Forms.Label();
             this.tbSend = new System.Windows.Forms.TextBox();
-            this.rtbReceived = new System.Windows.Forms.RichTextBox();
             this.mySerialPort = new System.IO.Ports.SerialPort(this.components);
             this.grbDieuKhienLed = new System.Windows.Forms.GroupBox();
-            this.btnTest = new System.Windows.Forms.Button();
+            this.txtFeedBack = new System.Windows.Forms.TextBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnSend = new System.Windows.Forms.Button();
             this.grbUart2.SuspendLayout();
             this.grbDieuKhienLed.SuspendLayout();
             this.SuspendLayout();
@@ -272,54 +272,39 @@
             this.lbCOM.TabIndex = 0;
             this.lbCOM.Text = "COM:";
             // 
-            // lbSend
-            // 
-            this.lbSend.AutoSize = true;
-            this.lbSend.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSend.Location = new System.Drawing.Point(10, 196);
-            this.lbSend.Name = "lbSend";
-            this.lbSend.Size = new System.Drawing.Size(36, 16);
-            this.lbSend.TabIndex = 1;
-            this.lbSend.Text = "GỬI:";
-            // 
             // lbReceived
             // 
             this.lbReceived.AutoSize = true;
             this.lbReceived.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbReceived.Location = new System.Drawing.Point(6, 229);
             this.lbReceived.Name = "lbReceived";
-            this.lbReceived.Size = new System.Drawing.Size(50, 16);
+            this.lbReceived.Size = new System.Drawing.Size(70, 16);
             this.lbReceived.TabIndex = 1;
-            this.lbReceived.Text = "NHẬN:";
+            this.lbReceived.Text = "Feedback:";
             // 
             // tbSend
             // 
-            this.tbSend.Location = new System.Drawing.Point(62, 192);
+            this.tbSend.Location = new System.Drawing.Point(82, 192);
             this.tbSend.Name = "tbSend";
-            this.tbSend.Size = new System.Drawing.Size(320, 25);
+            this.tbSend.Size = new System.Drawing.Size(300, 25);
             this.tbSend.TabIndex = 3;
-            this.tbSend.TextChanged += new System.EventHandler(this.tbSend_TextChanged);
+            this.tbSend.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbSend_KeyDown);
             // 
-            // rtbReceived
+            // mySerialPort
             // 
-            this.rtbReceived.Location = new System.Drawing.Point(62, 227);
-            this.rtbReceived.Name = "rtbReceived";
-            this.rtbReceived.Size = new System.Drawing.Size(320, 67);
-            this.rtbReceived.TabIndex = 4;
-            this.rtbReceived.Text = "";
-            this.rtbReceived.TextChanged += new System.EventHandler(this.rtbReceived_TextChanged);
+            this.mySerialPort.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.mySerialPort_DataReceived);
             // 
             // grbDieuKhienLed
             // 
+            this.grbDieuKhienLed.Controls.Add(this.txtFeedBack);
+            this.grbDieuKhienLed.Controls.Add(this.btnClear);
+            this.grbDieuKhienLed.Controls.Add(this.btnSend);
             this.grbDieuKhienLed.Controls.Add(this.btnBlueLED);
             this.grbDieuKhienLed.Controls.Add(this.btnRedLED);
             this.grbDieuKhienLed.Controls.Add(this.btnGreenLED);
-            this.grbDieuKhienLed.Controls.Add(this.btnTest);
             this.grbDieuKhienLed.Controls.Add(this.lb1DieuKhienLED);
-            this.grbDieuKhienLed.Controls.Add(this.rtbReceived);
             this.grbDieuKhienLed.Controls.Add(this.tbSend);
             this.grbDieuKhienLed.Controls.Add(this.lbReceived);
-            this.grbDieuKhienLed.Controls.Add(this.lbSend);
             this.grbDieuKhienLed.Controls.Add(this.btnOrangeLED);
             this.grbDieuKhienLed.Enabled = false;
             this.grbDieuKhienLed.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -330,16 +315,36 @@
             this.grbDieuKhienLed.TabStop = false;
             this.grbDieuKhienLed.Enter += new System.EventHandler(this.grbDieuKhienLed_Enter);
             // 
-            // btnTest
+            // txtFeedBack
             // 
-            this.btnTest.Location = new System.Drawing.Point(13, 23);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(119, 53);
-            this.btnTest.TabIndex = 5;
-            this.btnTest.Text = "Load BaudRate";
-            this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Visible = false;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            this.txtFeedBack.Location = new System.Drawing.Point(82, 229);
+            this.txtFeedBack.Multiline = true;
+            this.txtFeedBack.Name = "txtFeedBack";
+            this.txtFeedBack.ReadOnly = true;
+            this.txtFeedBack.Size = new System.Drawing.Size(295, 71);
+            this.txtFeedBack.TabIndex = 7;
+            // 
+            // btnClear
+            // 
+            this.btnClear.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(0, 275);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 25);
+            this.btnClear.TabIndex = 6;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnSend
+            // 
+            this.btnSend.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSend.Location = new System.Drawing.Point(1, 192);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(75, 25);
+            this.btnSend.TabIndex = 6;
+            this.btnSend.Text = "Send";
+            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // Form1
             // 
@@ -374,7 +379,6 @@
         private System.Windows.Forms.Label lbParity;
         private System.Windows.Forms.Label lbDatasize;
         private System.Windows.Forms.Label lbBaudrate;
-        private System.Windows.Forms.Label lbSend;
         private System.Windows.Forms.Label lbReceived;
         private System.Windows.Forms.Label lbStopBit;
         private System.Windows.Forms.ComboBox cbParity;
@@ -383,11 +387,12 @@
         private System.Windows.Forms.ComboBox cbCom;
         private System.Windows.Forms.ComboBox cbStopBit;
         private System.Windows.Forms.TextBox tbSend;
-        private System.Windows.Forms.RichTextBox rtbReceived;
         private System.IO.Ports.SerialPort mySerialPort;
         private System.Windows.Forms.GroupBox grbDieuKhienLed;
         private System.Windows.Forms.CheckBox chbAutoConnect;
-        private System.Windows.Forms.Button btnTest;
+        private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.TextBox txtFeedBack;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 

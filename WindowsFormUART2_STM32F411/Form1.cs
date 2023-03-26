@@ -14,61 +14,60 @@ using System.Xml;
 //
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Drawing.Drawing2D;
+using System.Xml.Linq;
 
 namespace WindowsFormUART2_STM32F411
 {
     public partial class Form1 : Form
     {
-       // Color defaultButtonColor = Color.FromArgb(0xff, 0xff, 0xfa, 0xfa);      // Define button color is Snow
+        string dataOut;
+        string inData;
         public Form1()
         {
             InitializeComponent();
-            // LAY CAC CONG COM CO TREN MAY TINH
-            // 1.1. Lay tat ca cac cong COM co tren may tinh
-            string[] ComList = SerialPort.GetPortNames();
-            int[] ComNumberList = new int[ComList.Length];
+                // LAY CAC CONG COM CO TREN MAY TINH
+                // 1.1. Lay tat ca cac cong COM co tren may tinh
+                string[] ComList = SerialPort.GetPortNames();
+                int[] ComNumberList = new int[ComList.Length];
 
-            // 1.2. Sap xep cac cong COM theo thu tu tu thap den cao
-            for (int i = 0; i < ComList.Length; i++)
-            {
-                ComNumberList[i] = int.Parse(ComList[i].Substring(3));
-            }
-            Array.Sort(ComNumberList);
-            foreach (int ComNumber in ComNumberList)
-            {
+                // 1.2. Sap xep cac cong COM theo thu tu tu thap den cao
+                for (int i = 0; i < ComList.Length; i++)
+                {
+                    ComNumberList[i] = int.Parse(ComList[i].Substring(3));
+                }
+                Array.Sort(ComNumberList);
+                foreach (int ComNumber in ComNumberList)
+                {
 
-                cbCom.Items.Add("COM" + ComNumber.ToString());
-            }
+                    cbCom.Items.Add("COM" + ComNumber.ToString());
+                }
 
-            // KHAI BAO TOC DO BAUD
-            string[] baudList = { "9600", "14400", "19200", "38400", "57600", "115200" };   // Khai bao danh sach toc do Baud
-            foreach (string baudName in baudList)
-            {
-                cbBaudRate.Items.Add(baudName);
-            }
+                // KHAI BAO TOC DO BAUD
+                string[] baudList = { "9600", "14400", "19200", "38400", "57600", "115200" };   // Khai bao danh sach toc do Baud
+                foreach (string baudName in baudList)
+                {
+                    cbBaudRate.Items.Add(baudName);
+                }
 
-            //  KHAI BAO DATA SIZE
-            string[] dataSizeList = { "7", "8" };   // Khai bao danh sach kich co datasize
-            foreach (string dataSize in dataSizeList)
-            {
-                cbDatasize.Items.Add(dataSize);
-            }
+                //  KHAI BAO DATA SIZE
+                string[] dataSizeList = { "7", "8" };   // Khai bao danh sach kich co datasize
+                foreach (string dataSize in dataSizeList)
+                {
+                    cbDatasize.Items.Add(dataSize);
+                }
 
-            //  KHAI BAO PARITY
-            string[] parityList = { "none", "odd", "even", "mark", "space" };
-            foreach (string str in parityList)
-            {
-                cbParity.Items.Add(str);
-            }
+                //  KHAI BAO PARITY
+                string[] parityList = { "none", "odd", "even", "mark", "space" };
+                foreach (string str in parityList)
+                {
+                    cbParity.Items.Add(str);
+                }
 
-            // KHAI BAO STOP BIT
-            string[] stopBit = { "0", "1", "2" };
-            cbStopBit.Items.AddRange(stopBit);
-            
-            // 
-
+                // KHAI BAO STOP BIT
+                string[] stopBit = { "0", "1", "2" };
+                cbStopBit.Items.AddRange(stopBit);
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             //-----------------------------------------------------------------
@@ -209,19 +208,22 @@ namespace WindowsFormUART2_STM32F411
                         cbParity.Enabled = true;
                         cbStopBit.Enabled = true;
                     //
-                    btnGreenLED.BackColor = System.Drawing.Color.Snow;
-                    btnOrangeLED.BackColor = System.Drawing.Color.Snow;
-                    btnRedLED.BackColor = System.Drawing.Color.Snow;
-                    btnBlueLED.BackColor = System.Drawing.Color.Snow;
+                        btnGreenLED.BackColor = System.Drawing.Color.Snow;
+                        btnOrangeLED.BackColor = System.Drawing.Color.Snow;
+                        btnRedLED.BackColor = System.Drawing.Color.Snow;
+                        btnBlueLED.BackColor = System.Drawing.Color.Snow;
 
-                    btnGreenLED.Text = "Green LED";
-                    btnOrangeLED.Text = "Orange LED";
-                    btnRedLED.Text = "Red LED";
-                    btnBlueLED.Text = "Blue LED";
+                        btnGreenLED.Text = "Green LED";
+                        btnOrangeLED.Text = "Orange LED";
+                        btnRedLED.Text = "Red LED";
+                        btnBlueLED.Text = "Blue LED";
 
+                        //tbSend.Text = "";
+                        tbSend.Clear();
+                        txtFeedBack.Clear();
                     grbDieuKhienLed.Enabled = false;
-                }
-                    else
+                }   // end if (mySerialPort.IsOpen)
+                else
                     {
                         try
                         {
@@ -240,23 +242,32 @@ namespace WindowsFormUART2_STM32F411
 
                             // Mo bang dieu khien Led va truyen nhan du lieu
                             grbDieuKhienLed.Enabled = true;
-
-                            // Load thong tin trang thai thiet bi
-
                         }
                         catch
                         {
                             MessageBox.Show("Không thể mở cổng " + cbCom.Text, "Lỗi !", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
-            }
+            }   // end  if ((cbCom.Text != "") & (cbBaudRate.Text != ""))
             else
             {
                 MessageBox.Show("Vui lòng chọn cổng COM và BAUDRARE trước khi kết nối", "Thông báo !", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
         }
-
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            if (mySerialPort.IsOpen)
+            {
+                dataOut = tbSend.Text;
+                mySerialPort.WriteLine(dataOut);
+            }
+            tbSend.Text = "";
+        }
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtFeedBack.Clear();
+        }
         //-------------------------------------------------------
         // Green LED
         //-------------------------------------------------------
@@ -495,20 +506,8 @@ namespace WindowsFormUART2_STM32F411
                     break;
             }
         }
-        //-------------------------------------------------------
-        // TEXTBOX
-        //-------------------------------------------------------
-        private void tbSend_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-        //-------------------------------------------------------
-        // RICH TEXTBOX
-        //-------------------------------------------------------
-        private void rtbReceived_TextChanged(object sender, EventArgs e)
-        {
 
-        }
         //-------------------------------------------------------
         // GROUPBOX
         //-------------------------------------------------------
@@ -524,25 +523,32 @@ namespace WindowsFormUART2_STM32F411
 
         }
 
-        //------------------------------------------------------------------------------------------------------------
-        // Đoạn code bên dưới dùng để test chức năng của các đối tượng trong lúc lập trình.
-        // Khi chương trình đã hoạt động như thiết kế thì không cần quan tâm đến nó.
-        //------------------------------------------------------------------------------------------------------------
-        private void btnTest_Click(object sender, EventArgs e)
+        //-------------------------------------------------------
+        //TEXTBOX
+        //-------------------------------------------------------
+        private void tbSend_KeyDown(object sender, KeyEventArgs e)
         {
-            // Lấy giá trị được chọn từ ComboBox
-            //ParityOption selectedParity = (ParityOption)cbParity.SelectedItem;
-            // Thiết lậnp giá trị Parity cho đối tượng SerialPort
-            //mySerialPort.Parity = (Parity)selectedParity;
-            //mySerialPort.Parity = (Parity)selectedParity;
-
-            tbSend.Text = mySerialPort.StopBits.GetType().ToString();
-           // tbSend.Text = mySerialPort.Parity.ToString();
-            //int.Parse(cbDatasize.SelectedItem.ToString());
-           // tbSend.Text = mySerialPort.Parity.ToString();
-            //mySerialPort.DataBits = 8;
-
+            if (e.KeyCode == Keys.Enter)
+            {
+                dataOut = tbSend.Text;
+                mySerialPort.WriteLine(dataOut);
+                tbSend.Clear();
+            }
         }
+
+        private void mySerialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            //  Sử dụng phương thức ReadExisting() để đọc dữ liệu
+            inData = mySerialPort.ReadExisting();
+            //txtFeedBack.AppendText (inData);
+            // Thêm dữ liệu vào textbox bằng phương thức AppendText()
+            // Sử dụng BeginInvoke để đảm bảo rằng việc thêm dữ liệu vào textbox được thực hiện trên thread chính của form.
+            BeginInvoke(new Action(() =>
+            {
+                txtFeedBack.AppendText(inData);
+            }));
+        }
+
 
     }   // End "public partial class Form1 : Form"
 }   // End "namespace WindowsFormUART2_STM32F411"
