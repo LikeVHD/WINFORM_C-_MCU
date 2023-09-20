@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\slide4\bin\Debug\slide4.exe.config
+C:\Users\Administrator\source\repos\slide4\bin\Debug\slide4.exe
+C:\Users\Administrator\source\repos\slide4\bin\Debug\slide4.pdb
+C:\Users\Administrator\source\repos\slide4\obj\Debug\slide4.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide4\obj\Debug\slide4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide4\obj\Debug\slide4.Form1.resources
+C:\Users\Administrator\source\repos\slide4\obj\Debug\slide4.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide4\obj\Debug\slide4.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide4\obj\Debug\slide4.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide4\obj\Debug\slide4.exe
+C:\Users\Administrator\source\repos\slide4\obj\Debug\slide4.pdb

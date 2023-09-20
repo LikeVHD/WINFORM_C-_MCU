@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\bin\Debug\Buoi3_baitap.exe.config
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\bin\Debug\Buoi3_baitap.exe
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\bin\Debug\Buoi3_baitap.pdb
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\obj\Debug\Buoi3_baitap.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\obj\Debug\Buoi3_baitap.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\obj\Debug\Buoi3_baitap.Form1.resources
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\obj\Debug\Buoi3_baitap.Properties.Resources.resources
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\obj\Debug\Buoi3_baitap.csproj.GenerateResource.cache
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\obj\Debug\Buoi3_baitap.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\obj\Debug\Buoi3_baitap.exe
+C:\Users\Administrator\source\C_Sharp_PLC\Buoi3_baitap\obj\Debug\Buoi3_baitap.pdb

@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\slide8-2\bin\Debug\slide8_2.exe.config
+C:\Users\Administrator\source\repos\slide8-2\bin\Debug\slide8_2.exe
+C:\Users\Administrator\source\repos\slide8-2\bin\Debug\slide8_2.pdb
+C:\Users\Administrator\source\repos\slide8-2\obj\Debug\slide8-2.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\slide8-2\obj\Debug\slide8-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\slide8-2\obj\Debug\slide8_2.Properties.Resources.resources
+C:\Users\Administrator\source\repos\slide8-2\obj\Debug\slide8-2.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\slide8-2\obj\Debug\slide8-2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\slide8-2\obj\Debug\slide8_2.exe
+C:\Users\Administrator\source\repos\slide8-2\obj\Debug\slide8_2.pdb
